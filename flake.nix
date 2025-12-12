@@ -4,7 +4,7 @@
   outputs = {self, ...}: {
     templates = {
       rust-toolchain = {
-        path = ./devshells/rust-toolchain;
+        path = ./devshells/rust-toolchain.nix;
         description = "Rust Oxalica's devshell";
       };
     };
