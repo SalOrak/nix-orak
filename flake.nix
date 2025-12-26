@@ -3,6 +3,10 @@
 
   outputs = {self, ...}: {
     templates = {
+      common = {
+        path = ./devshells/common;
+        description = "Common Devshell";
+      };
       rust = {
         path = ./devshells/rust;
         description = "Rust Oxalica's devshell";
