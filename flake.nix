@@ -8,7 +8,7 @@
         description = "Rust Oxalica's devshell";
       };
       rust-embedded = {
-        path = ./devshells/rust-embedded/;
+        path = ./devshells/rust-embedded;
         description = "Embedded Rust Oxalica's devshell";
       };
     };
