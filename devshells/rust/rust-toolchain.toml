@@ -1,6 +1,6 @@
 [toolchain]
 # Channels: stable, beta and nightly
-channel = "stable";
+channel = "stable"
 
 # Components:
 # https://rust-lang.github.io/rustup/concepts/components.html
